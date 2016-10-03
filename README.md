@@ -1,5 +1,5 @@
 # StartupDetailsExtension
->scrapes startup details from angellist 
+>scrapes startup details from AngelList 
 
 ## Screenshot
 ![alt tag](screenshot.jpg)

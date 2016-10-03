@@ -3,8 +3,8 @@ var temp2=document.getElementsByClassName("js-startup_name")[0].innerHTML.trim()
 var temp3=document.getElementsByClassName("js-startup_high_concept")[0].innerHTML.trim();
 var temp4=document.getElementsByClassName("js-location_tags")[0].innerHTML.trim();
 var temp5=document.getElementsByClassName("company_url")[0].href;
-
-var body={"title":temp2,"description":temp3,"image":temp,"url":temp5,"location":temp4};
+var temp6="AngelList";
+var body={"title":temp2,"description":temp3,"image":temp,"url":temp5,"location":temp4,"source":temp6};
 
 
 chrome.storage.sync.set({'pop_href': body}, function () {

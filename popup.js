@@ -17,7 +17,8 @@ btn.addEventListener('click',function()
   {
 	var url = "http://app.crowdproduct.com/api/product";
 	var method = "POST";
-	var postData =JSON.stringify(newdata);/* "{'title':'"+newdata.title+"','description':'"+newdata.description+"','image':'"+newdata.image+"','url':'"+newdata.url+"','location':'"+newdata.location+"'}"; */
+	var postData =JSON.stringify(newdata);
+	/* "{'title':'"+newdata.title+"','description':'"+newdata.description+"','image':'"+newdata.image+"','url':'"+newdata.url+"','location':'"+newdata.location+"'}"; */
 	console.log(postData);
 	/* {"body":[
 		{"title":},
@@ -47,7 +48,7 @@ btn.addEventListener('click',function()
 	request.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
 	
 	request.send(postData);
-	//console.log(request.responseText);
+	console.log(request.responseText);
 	  
   });
 

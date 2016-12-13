@@ -1,9 +1,9 @@
 # StartupDetailsExtension
-Hello World
->scrapes startup details from AngelList 
 
-## Screenshot
-![alt tag](screenshot.jpg)
+>scrapes startup details from _AngelList_ 
 
-## Screenshot
-![alt tag](posted0.0.jpg)
+## Screenshots
+![Screenshot 1](screenshot.jpg)
+
+
+![Screenshot 2](posted0.0.jpg)
